@@ -1,2 +1,2 @@
 # php_encryption_decryption
-This Codes Can encrypt and encrypt your data
+This Codes Can Encrypt and Decrypt your data
