@@ -11,10 +11,10 @@ function encryption($key)
     $options = 0;
 
     // Non-NULL Initialization Vector for encryption
-    $encryption_iv = '2001028016150512';
+    $encryption_iv = '2001028006150512';
 
     // Store the encryption key
-    $encryption_key = "aladole";
+    $encryption_key = "dineths";
 
     // Use openssl_encrypt() function to encrypt the data
     $encryption = openssl_encrypt($key, $ciphering, $encryption_key, $options, $encryption_iv);
@@ -28,12 +28,12 @@ function decryption($key)
 
     // Use OpenSSl Encryption method
     // Non-NULL Initialization Vector for decryption
-    $decryption_iv = '2001028016150512';
+    $decryption_iv = '2001028006150512';
     $options = 0;
 
 
     // Store the decryption key
-    $decryption_key = "aladole";
+    $decryption_key = "dineths";
 
     // Use openssl_decrypt() function to decrypt the data
     $decryption = openssl_decrypt(
